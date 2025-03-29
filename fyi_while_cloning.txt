@@ -1,0 +1,6 @@
+##Now, whenever you or someone else clones the repo, just recreate the virtual environment and install dependencies using:
+
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
